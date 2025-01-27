@@ -15,11 +15,11 @@
   }
   
   h1 {
-    font-size: 96px !important;
+    font-size: 86px;
   }
   
   h2 {
-    font-size: 48px !important;
+    font-size: 48px;
   }
   
   h3 {
@@ -31,6 +31,12 @@
     font-size: 18px;
     line-height: 1.5;
   }
+
+  @media (max-width:900px)
+  { h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }}
   
   .navigation-links {
     display: flex;
